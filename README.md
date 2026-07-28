@@ -6,6 +6,7 @@ An AI-powered data audit tool. Upload a CSV or Excel file, and the app cleans it
 
 Built with Flask, SQLite, pandas, and Chart.js, with a single-page vanilla-JS frontend.
 
+
 Features
 
 Email/phone + password authentication (JWT-based sessions)
