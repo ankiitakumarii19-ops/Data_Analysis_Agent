@@ -12,9 +12,12 @@ OTP-based password reset flow
 CSV/XLSX upload → automated cleaning (dedup, null handling) → LLM-generated strategic report
 Per-user report history with automatic expiry
 Single-file frontend, no build step required
+
+
+
 Tech stack
 Layer	Tech
-Backend	Flask, SQLite, PyJWT, bcrypt
-Data	pandas, numpy
-AI	Groq API (Llama 3.3 70B)
-Frontend	Vanilla JS, Tailwind (CDN), Chart.js
+Backend	- Flask, SQLite, PyJWT, bcrypt
+Data -pandas, numpy
+AI - Groq API (Llama 3.3 70B)
+Frontend -	Vanilla JS, Tailwind (CDN), Chart.js
